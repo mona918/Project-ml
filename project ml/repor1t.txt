@@ -1,0 +1,37 @@
+Title:Fashion-MNIST Image Classification using KNN Algorithm 
+
+Objective:
+The objective of this project is to classify images from the Fashion-MNIST dataset using the K-Nearest Neighbors 
+(KNN) algorithm and to analyze how the value of K affects the accuracy of the model.
+
+Dataset:
+In this project, I have used the Fashion-MNIST dataset. 
+It consists of grayscale images of size 28x28 pixels. 
+The dataset contains different categories of clothing items such as T-shirts, trousers etc.
+Each image belongs to one of the 10 classes.
+
+Methodology:
+First, the Fashion-MNIST dataset was loaded into Python. The image data was arrenged and normalized 
+so that it can be used for training the model.  
+Then, the KNN classifier was implemented. Eucledian distance function has been used to measure the data. The model was trained using different values of K (number of neighbors).  
+For each value of K, the accuracy of the model was calculated. A graph was plotted between K values and
+ accuracy to observe the impact of K on performance.
+
+Results:
+The model achieved good accuracy on the test data.  
+The best accuracy obtained was approximately 0.9 for an optimal value of K.  
+From the graph, it was observed that very small or very large values of K reduce accuracy,
+ while a moderate K gives better results.
+
+Conclusion:
+KNN is a simple and effective algorithm for image classification when the dataset is not very complex.  
+The performance of KNN depends heavily on the choice of K value.  
+From this project, I learned how to load datasets, apply KNN, calculate accuracy, 
+and analyze results using graphs.
+
+Tools and Libraries Used:
+- Python
+- Jupyter Notebook
+- NumPy
+- pandas
+- Matplotlib
